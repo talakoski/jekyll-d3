@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Setting up Jekyll!"
+date:   2017-05-13 20:27:32 +0300
+categories: jekyll
+---
+Setting up Jekyll with D3.js
+
+    jekyll new jekyll-d3
+    cd jekyll-d3/
+    bundle install --path vendor/bundle
+    # edit: _config.yml to exclude vendor directory:
+    #    exclude:
+    #     - Gemfile
+    #     - Gemfile.lock
+    #     - vendor/bundle
+    bundle exec jekyll serve
